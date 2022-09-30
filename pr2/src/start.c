@@ -55,9 +55,9 @@ void start(int *a,int *b, int *c, int *coin)
 				printf("\n|_______|_______|_______|");
 			  	
 				int x,y,z,q;
-				x=*a=7;
-				y=*b=7;
-				z=*c=7;
+				x=*a;
+				y=*b;
+				z=*c;
 				q=*coin;
 				audit(& x, &y, &z, &q);
 				*coin=q;
